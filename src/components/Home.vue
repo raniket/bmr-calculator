@@ -86,6 +86,8 @@
           <v-card>
             <v-card-text>
               {{en.home.note.description}}
+              <br>
+              {{en.home.note.formulaDetails}}
             </v-card-text>
           </v-card>
         </v-expansion-panel-content>

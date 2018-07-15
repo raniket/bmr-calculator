@@ -18,7 +18,8 @@ export const en = {
     },
     note: {
       title: "What is your BMR?",
-      description: "Your BMR (Basal Metabolic Rate) is an estimate of how many calories you'd burn if you were to do nothing but rest for 24 hours. It represents the minimum amount of energy needed to keep your body functioning, including breathing and keeping your heart beating."
+      description: "Your BMR (Basal Metabolic Rate) is an estimate of how many calories you'd burn if you were to do nothing but rest for 24 hours. It represents the minimum amount of energy needed to keep your body functioning, including breathing and keeping your heart beating.",
+      formulaDetails: "We are calculating BMR using Harris–Benedict equations revised by Mifflin and St Jeor in 1990."
     },
     errors: {
       hasWeight: "weight is required",
