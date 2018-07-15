@@ -10,10 +10,10 @@ let bmrCalculator = (payload) => {
   let age = parseFloat(payload.age);
   let gender = payload.gender;
 
-  // using Revised Harris-Benedict formula to calculate the BMR.
+  //Using Harris–Benedict equations revised by Mifflin and St Jeor in 1990
   if (gender === 'male')
-    return (66.5 + (13.75 * weight) + (5.003 * height) - (6.755 * age)).toFixed(4);
-  return (655.1 + (9.563 * weight) + (1.850 * height) - (4.676 * age)).toFixed(4);
+    return ((10 * weight) + (6.25 * height) - (5 * age) + 5).toFixed(4);
+  return ((10 * weight) + (6.25 * height) - (5 * age) - 161).toFixed(4);
 }
 
 module.exports.bmrCalculator = bmrCalculator;
